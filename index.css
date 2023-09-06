@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     /* HEADER */
-    #headerTittle, #search{
+    #headerTITULO, #search{
         display: none;
     }
 
@@ -60,11 +60,11 @@
         align-items: center;
         justify-content: center;
     }
-    .optionIconMobile{
+    .OpçõesdeIcone{
         width: 30px;
         height: 30px;
     }
-    .optionIconMobile img{
+    .OpçõesdeIcone img{
         width: 100%;
         height: 100%;
     }
@@ -79,17 +79,8 @@
         bottom: -50px;
         left: 20px;
     }
-
-    #editProfileSection, #bioProfile{
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
 }
 
-
-
-/* ALL CONFIGS */
 @font-face {
     font-family: HelveticaNeue;
     src: url(fonts/HelveticaNeue/HelveticaNeueLTPro-75Bold.otf);
@@ -181,7 +172,7 @@ header{
     background-color: #14171ada;
 }
 
-#logoSpace, #headerTittle , #search{
+#logoSpace, #headerTITULO , #search{
     width: 30%;
     height: 100%;
     display: flex;
@@ -198,11 +189,11 @@ header{
     height: 100%;
 }
 
-#headerTittle{
+#headerTITULO{
     justify-content: start;
 }
 
-#search{
+#pesquisar{
     justify-content: end;
 }
 
